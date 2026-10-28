@@ -20,7 +20,7 @@ class WelcomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('🧛', style: TextStyle(fontSize: 72)),
+              const Text('\u{1F987}', style: TextStyle(fontSize: 72)),
               // Letters appear one by one — typewriter spell
               AnimatedTextKit(
                 animatedTexts: [
